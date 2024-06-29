@@ -1,0 +1,183 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0"> 
+
+	<!-- Font Awesome CDN-->
+	<link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> 
+
+	<!-- For font family Poppins -->
+	<link rel="preconnect"
+		href="https://fonts.googleapis.com"> 
+	<link rel="preconnect"
+		href="https://fonts.gstatic.com" crossorigin> 
+	<link href= 
+"https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+		rel="stylesheet"> 
+	<title>Our Services</title> 
+	<style> 
+		* { 
+			box-sizing: border-box; 
+		} 
+
+		body { 
+			font-family: 'Poppins', sans-serif; 
+			margin: 0; 
+			padding: 0; 
+			background-image: image('images/brand.png'); 
+			background-repeat: no-repeat; 
+			background-size: cover; 
+			background-color: rgb(144, 142, 144); 
+			background-blend-mode: multiply; 
+			background-position: center; 
+			color: #fff; 
+		} 
+
+		h1, 
+		h3 { 
+			text-align: center; 
+			text-transform: uppercase; 
+		} 
+
+		h1 { 
+			position: relative; 
+			max-width: max-content; 
+			margin: 2rem auto 5rem auto; 
+		} 
+
+		h1::after { 
+			content: ""; 
+			position: absolute; 
+			width: 75%; 
+			height: 5px; 
+			background-color: rgb(101, 252, 212); 
+			bottom: -2rem; 
+			left: 25px; 
+		} 
+
+		i { 
+			font-size: 3rem; 
+			color: rgb(101, 252, 212); 
+			padding: 1rem; 
+			transition: all 0.3s linear; 
+			transform: rotate(-45deg); 
+		} 
+
+		.services-container { 
+			max-width: 1200px; 
+			margin: 0 auto; 
+			padding: 20px; 
+			display: flex; 
+			flex-wrap: wrap; 
+			justify-content: space-around; 
+		} 
+
+		.service-card { 
+			cursor: pointer; 
+			width: 300px; 
+			margin: 20px; 
+			padding: 2rem 20px 20px 20px; 
+			text-align: center; 
+			border-radius: 5px; 
+			transition: all 0.3s ease-in-out; 
+		} 
+
+		.icon-container { 
+			border: 2px solid rgb(101, 252, 212); 
+			transition: 0.3s linear; 
+			width: max-content; 
+			margin: 0 auto; 
+			transform: rotate(45deg); 
+		} 
+
+		.service-card:hover { 
+			box-shadow: 0 0 30px 0 rgb(101, 252, 212); 
+			transform: scale(1.1); 
+		} 
+
+		.service-card a { 
+			color: rgb(101, 252, 212);  
+			text-decoration: none; 
+		} 
+
+		@media (max-width: 768px) { 
+			.service-card { 
+				width: 100%; 
+			} 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	<h1>Our Services</h1> 
+	<div class="services-container"> 
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-solid fa-user"></i> 
+			</div> 
+			<h3>Interactive Forums</h3> 
+			<p> Engage in vibrant discussions and exchange knowledge within ConnectCircle's interactive forums. Explore diverse topics spanning industries, hobbies, and personal interests, where every voice contributes to a thriving community of learning and collaboration.  </p> 
+			<a href="https://www.workramp.com/blog/customer-community-platform/" class="button">Learn More</a> 
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-solid fa-cart-shopping"></i> 
+			</div> 
+			<h3>Community Initiatives</h3> 
+			<p> 
+				At ConnectCircle, we believe in the collective power of community-driven initiatives to create positive change. Join hands with fellow members to participate in impactful projects and campaigns that address societal challenges, promote sustainability. 
+</p> 
+			<a href="https://www.workramp.com/blog/customer-community-platform/" class="button">Learn More</a> 
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-solid fa-toolbox"></i> 
+			</div> 
+			<h3>Networking Opportunities</h3> 
+			<p> 
+				ConnectCircle offers a dynamic platform to forge meaningful connections and expand your professional network. Engage with a diverse community of like-minded individuals, industry experts, and thought leaders eager to share insights and collaborate. Whether you're seeking career opportunities, exploring new partnerships.
+</p> 
+			<a href="https://www.workramp.com/blog/customer-community-platform/" class="button">Learn More</a> 
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-brands fa-android"></i> 
+			</div> 
+			<h3>Personalized Recommendations</h3> 
+			<p> 
+				Discover a tailored experience on ConnectCircle with personalized content and group suggestions that align with your interests and activities. Whether you're passionate about professional development, exploring new hobbies, or seeking industry-specific insights, our platform adapts to your preferences.</p> 
+			<a href="https://www.workramp.com/blog/customer-community-platform/" class="button">Learn More</a> 
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-solid fa-database"></i> 
+			</div> 
+			<h3>Resource Library</h3> 
+			<p> 
+				Explore ConnectCircle's extensive resource library, meticulously curated to cater to your diverse interests and learning needs. Whether you're seeking insightful articles, practical tutorials, or comprehensive guides, and stay informed with the latest trends—all conveniently accessible within our user-friendly platform.</p> 
+			<a href="https://www.workramp.com/blog/customer-community-platform/" class="button">Learn More</a> 
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-solid fa-pen"></i> 
+			</div> 
+			<h3>Feedback & Support</h3> 
+			<p> 
+				At ConnectCircle, we value your input and strive to provide exceptional support. Our platform encourages active engagement and welcomes your feedback to continuously enhance your experience.Together, let's build a platform that meets your needs and fosters meaningful connections.
+</p> 
+			<a href="https://www.workramp.com/blog/customer-community-platform/" class="button">Learn More</a> 
+		</div> 
+	</div> 
+</body> 
+
+</html>
